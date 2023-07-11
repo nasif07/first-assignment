@@ -4,10 +4,26 @@
     font-family: 'Sarabun', sans-serif;
 }
 
+/* similar style */
+
+.button-primary{
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 147px;
+}
+
+
 /* banner section */
 .banner-item{
-    width: 1700px;
-    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    background-size: cover;
+    width: 1730px;
+    height: 860px;
 }
 .banner {
     display: flex;
@@ -115,4 +131,40 @@
     padding-bottom: 50px;
 }
 
-/*  */
+/* offer section */
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-between;
+    align-items: center;
+}
+.offer {
+    display: flex;
+    align-items: center;
+}
+.offer-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    padding: 2px 0 0 400px;
+}
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0 0 400px;
+}
+.offer-picture {
+    width: 250px;
+    height: auto;
+    padding: 100px 400px 100px 100px;
+}
+.button-primary{
+    margin: 20px 0 0 600px;
+}
+
+/* social */
